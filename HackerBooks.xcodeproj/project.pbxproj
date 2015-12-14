@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7922DDC01C1C4D9300120E4C /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 7922DDBF1C1C4D9300120E4C /* Blank52.png */; };
+		7922DDC31C1C5C0000120E4C /* books_readable_big.json in Resources */ = {isa = PBXBuildFile; fileRef = 7922DDC11C1C5C0000120E4C /* books_readable_big.json */; };
+		7922DDC61C1C5C3900120E4C /* books_readable.json in Resources */ = {isa = PBXBuildFile; fileRef = 7922DDC51C1C5C3900120E4C /* books_readable.json */; };
+		797F347B1C1E3526006C8918 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F347A1C1E3526006C8918 /* FileHelper.swift */; };
+		79A317081C1DD2490074386F /* fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A317071C1DD2490074386F /* fav.png */; };
+		79A3170A1C1DD2FA0074386F /* nofav.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A317091C1DD2FA0074386F /* nofav.png */; };
+		79ADDF2C1C1D7BE600967CE5 /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ADDF2B1C1D7BE600967CE5 /* PdfViewController.swift */; };
+		79DBAC031C11AEC0006F0400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC021C11AEC0006F0400 /* AppDelegate.swift */; };
+		79DBAC051C11AEC0006F0400 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC041C11AEC0006F0400 /* DetailViewController.swift */; };
+		79DBAC081C11AEC1006F0400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DBAC061C11AEC1006F0400 /* Main.storyboard */; };
+		79DBAC0A1C11AEC1006F0400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DBAC091C11AEC1006F0400 /* Assets.xcassets */; };
+		79DBAC0D1C11AEC1006F0400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DBAC0B1C11AEC1006F0400 /* LaunchScreen.storyboard */; };
+		79DBAC181C11AEC1006F0400 /* HackerBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC171C11AEC1006F0400 /* HackerBooksTests.swift */; };
+		79DBAC281C11B22E006F0400 /* AGTBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC271C11B22E006F0400 /* AGTBook.swift */; };
+		79DBAC311C12D703006F0400 /* FoundationExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC301C12D703006F0400 /* FoundationExtention.swift */; };
+		79DBAC351C12D8D5006F0400 /* Tareas.md in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC341C12D8D5006F0400 /* Tareas.md */; };
+		79DBAC371C12D9D7006F0400 /* AGTLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC361C12D9D7006F0400 /* AGTLibrary.swift */; };
+		79DBAC391C12D9F9006F0400 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC381C12D9F9006F0400 /* JSONHelper.swift */; };
+		79DBAC3D1C132A5B006F0400 /* AGTLibraryTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBAC3C1C132A5B006F0400 /* AGTLibraryTableTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79DBAC141C11AEC1006F0400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DBABF71C11AEC0006F0400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DBABFE1C11AEC0006F0400;
+			remoteInfo = HackerBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7922DDBF1C1C4D9300120E4C /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
+		7922DDC11C1C5C0000120E4C /* books_readable_big.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books_readable_big.json; sourceTree = "<group>"; };
+		7922DDC51C1C5C3900120E4C /* books_readable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books_readable.json; sourceTree = "<group>"; };
+		797F347A1C1E3526006C8918 /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		79A317071C1DD2490074386F /* fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav.png; sourceTree = "<group>"; };
+		79A317091C1DD2FA0074386F /* nofav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nofav.png; sourceTree = "<group>"; };
+		79ADDF2B1C1D7BE600967CE5 /* PdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		79DBABFF1C11AEC0006F0400 /* HackerBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DBAC021C11AEC0006F0400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79DBAC041C11AEC0006F0400 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		79DBAC071C11AEC1006F0400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79DBAC091C11AEC1006F0400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79DBAC0C1C11AEC1006F0400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79DBAC0E1C11AEC1006F0400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DBAC131C11AEC1006F0400 /* HackerBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DBAC171C11AEC1006F0400 /* HackerBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerBooksTests.swift; sourceTree = "<group>"; };
+		79DBAC191C11AEC1006F0400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DBAC271C11B22E006F0400 /* AGTBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTBook.swift; sourceTree = "<group>"; };
+		79DBAC301C12D703006F0400 /* FoundationExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtention.swift; sourceTree = "<group>"; };
+		79DBAC341C12D8D5006F0400 /* Tareas.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Tareas.md; sourceTree = "<group>"; };
+		79DBAC361C12D9D7006F0400 /* AGTLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTLibrary.swift; sourceTree = "<group>"; };
+		79DBAC381C12D9F9006F0400 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		79DBAC3B1C12F918006F0400 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		79DBAC3C1C132A5B006F0400 /* AGTLibraryTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTLibraryTableTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DBABFC1C11AEC0006F0400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DBAC101C11AEC1006F0400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79DBABF61C11AEC0006F0400 = {
+			isa = PBXGroup;
+			children = (
+				79DBAC011C11AEC0006F0400 /* HackerBooks */,
+				79DBAC161C11AEC1006F0400 /* HackerBooksTests */,
+				79DBAC001C11AEC0006F0400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DBAC001C11AEC0006F0400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DBABFF1C11AEC0006F0400 /* HackerBooks.app */,
+				79DBAC131C11AEC1006F0400 /* HackerBooksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DBAC011C11AEC0006F0400 /* HackerBooks */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC2F1C12D6E4006F0400 /* Framework */,
+				79DBAC331C12D857006F0400 /* App */,
+				79DBAC0E1C11AEC1006F0400 /* Info.plist */,
+				79DBAC341C12D8D5006F0400 /* Tareas.md */,
+			);
+			path = HackerBooks;
+			sourceTree = "<group>";
+		};
+		79DBAC161C11AEC1006F0400 /* HackerBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC171C11AEC1006F0400 /* HackerBooksTests.swift */,
+				79DBAC191C11AEC1006F0400 /* Info.plist */,
+			);
+			path = HackerBooksTests;
+			sourceTree = "<group>";
+		};
+		79DBAC221C11B01F006F0400 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC061C11AEC1006F0400 /* Main.storyboard */,
+				79DBAC0B1C11AEC1006F0400 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		79DBAC231C11B038006F0400 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC271C11B22E006F0400 /* AGTBook.swift */,
+				79DBAC361C12D9D7006F0400 /* AGTLibrary.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		79DBAC241C11B040006F0400 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC041C11AEC0006F0400 /* DetailViewController.swift */,
+				79DBAC3C1C132A5B006F0400 /* AGTLibraryTableTableViewController.swift */,
+				79ADDF2B1C1D7BE600967CE5 /* PdfViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		79DBAC251C11B054006F0400 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79A317091C1DD2FA0074386F /* nofav.png */,
+				79A317071C1DD2490074386F /* fav.png */,
+				7922DDC51C1C5C3900120E4C /* books_readable.json */,
+				7922DDC11C1C5C0000120E4C /* books_readable_big.json */,
+				7922DDBF1C1C4D9300120E4C /* Blank52.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79DBAC261C11B1F9006F0400 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC3B1C12F918006F0400 /* MyPlayground.playground */,
+			);
+			name = Playgrounds;
+			sourceTree = "<group>";
+		};
+		79DBAC2F1C12D6E4006F0400 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC301C12D703006F0400 /* FoundationExtention.swift */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		79DBAC331C12D857006F0400 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79DBAC3A1C12DA16006F0400 /* Helpers */,
+				79DBAC261C11B1F9006F0400 /* Playgrounds */,
+				79DBAC251C11B054006F0400 /* Resources */,
+				79DBAC241C11B040006F0400 /* Controllers */,
+				79DBAC231C11B038006F0400 /* Models */,
+				79DBAC221C11B01F006F0400 /* Storyboards */,
+				79DBAC021C11AEC0006F0400 /* AppDelegate.swift */,
+				79DBAC091C11AEC1006F0400 /* Assets.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		79DBAC3A1C12DA16006F0400 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				797F347A1C1E3526006C8918 /* FileHelper.swift */,
+				79DBAC381C12D9F9006F0400 /* JSONHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79DBABFE1C11AEC0006F0400 /* HackerBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DBAC1C1C11AEC1006F0400 /* Build configuration list for PBXNativeTarget "HackerBooks" */;
+			buildPhases = (
+				79DBABFB1C11AEC0006F0400 /* Sources */,
+				79DBABFC1C11AEC0006F0400 /* Frameworks */,
+				79DBABFD1C11AEC0006F0400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerBooks;
+			productName = HackerBooks;
+			productReference = 79DBABFF1C11AEC0006F0400 /* HackerBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79DBAC121C11AEC1006F0400 /* HackerBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DBAC1F1C11AEC1006F0400 /* Build configuration list for PBXNativeTarget "HackerBooksTests" */;
+			buildPhases = (
+				79DBAC0F1C11AEC1006F0400 /* Sources */,
+				79DBAC101C11AEC1006F0400 /* Frameworks */,
+				79DBAC111C11AEC1006F0400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DBAC151C11AEC1006F0400 /* PBXTargetDependency */,
+			);
+			name = HackerBooksTests;
+			productName = HackerBooksTests;
+			productReference = 79DBAC131C11AEC1006F0400 /* HackerBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DBABF71C11AEC0006F0400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Pedro Martin Gomez";
+				TargetAttributes = {
+					79DBABFE1C11AEC0006F0400 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UWCRT7HLJN;
+					};
+					79DBAC121C11AEC1006F0400 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UWCRT7HLJN;
+						TestTargetID = 79DBABFE1C11AEC0006F0400;
+					};
+				};
+			};
+			buildConfigurationList = 79DBABFA1C11AEC0006F0400 /* Build configuration list for PBXProject "HackerBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79DBABF61C11AEC0006F0400;
+			productRefGroup = 79DBAC001C11AEC0006F0400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DBABFE1C11AEC0006F0400 /* HackerBooks */,
+				79DBAC121C11AEC1006F0400 /* HackerBooksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DBABFD1C11AEC0006F0400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7922DDC31C1C5C0000120E4C /* books_readable_big.json in Resources */,
+				79DBAC0D1C11AEC1006F0400 /* LaunchScreen.storyboard in Resources */,
+				7922DDC61C1C5C3900120E4C /* books_readable.json in Resources */,
+				7922DDC01C1C4D9300120E4C /* Blank52.png in Resources */,
+				79DBAC0A1C11AEC1006F0400 /* Assets.xcassets in Resources */,
+				79A317081C1DD2490074386F /* fav.png in Resources */,
+				79A3170A1C1DD2FA0074386F /* nofav.png in Resources */,
+				79DBAC081C11AEC1006F0400 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DBAC111C11AEC1006F0400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DBABFB1C11AEC0006F0400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ADDF2C1C1D7BE600967CE5 /* PdfViewController.swift in Sources */,
+				79DBAC3D1C132A5B006F0400 /* AGTLibraryTableTableViewController.swift in Sources */,
+				79DBAC351C12D8D5006F0400 /* Tareas.md in Sources */,
+				79DBAC051C11AEC0006F0400 /* DetailViewController.swift in Sources */,
+				79DBAC311C12D703006F0400 /* FoundationExtention.swift in Sources */,
+				79DBAC391C12D9F9006F0400 /* JSONHelper.swift in Sources */,
+				79DBAC031C11AEC0006F0400 /* AppDelegate.swift in Sources */,
+				79DBAC371C12D9D7006F0400 /* AGTLibrary.swift in Sources */,
+				79DBAC281C11B22E006F0400 /* AGTBook.swift in Sources */,
+				797F347B1C1E3526006C8918 /* FileHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DBAC0F1C11AEC1006F0400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBAC181C11AEC1006F0400 /* HackerBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79DBAC151C11AEC1006F0400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DBABFE1C11AEC0006F0400 /* HackerBooks */;
+			targetProxy = 79DBAC141C11AEC1006F0400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79DBAC061C11AEC1006F0400 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DBAC071C11AEC1006F0400 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79DBAC0B1C11AEC1006F0400 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DBAC0C1C11AEC1006F0400 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79DBAC1A1C11AEC1006F0400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79DBAC1B1C11AEC1006F0400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79DBAC1D1C11AEC1006F0400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HackerBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmargom.HackerBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79DBAC1E1C11AEC1006F0400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HackerBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmargom.HackerBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79DBAC201C11AEC1006F0400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackerBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmargom.HackerBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBooks.app/HackerBooks";
+			};
+			name = Debug;
+		};
+		79DBAC211C11AEC1006F0400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackerBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmargom.HackerBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBooks.app/HackerBooks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DBABFA1C11AEC0006F0400 /* Build configuration list for PBXProject "HackerBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBAC1A1C11AEC1006F0400 /* Debug */,
+				79DBAC1B1C11AEC1006F0400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DBAC1C1C11AEC1006F0400 /* Build configuration list for PBXNativeTarget "HackerBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBAC1D1C11AEC1006F0400 /* Debug */,
+				79DBAC1E1C11AEC1006F0400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DBAC1F1C11AEC1006F0400 /* Build configuration list for PBXNativeTarget "HackerBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBAC201C11AEC1006F0400 /* Debug */,
+				79DBAC211C11AEC1006F0400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79DBABF71C11AEC0006F0400 /* Project object */;
+}
